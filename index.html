@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Interactive rating component</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="main-container">
+      <section class="rating-container">
+        <!-- Rating state start -->
+        <article class="rating-state">
+          <img src="./images/icon-star.svg" alt="star icon" />
+          <h1 class="heading">How did we do?</h1>
+          <p class="text">
+            Please let us know how we did with your support request. All
+            feedback is appreciated to help us improve our offering!
+          </p>
+          <article class="numbers-to_select">
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <p>4</p>
+            <p>5</p>
+          </article>
+
+          <button class="submit-btn">Submit</button>
+        </article>
+        <!-- Rating state end -->
+      </section>
+
+      <section class="thank-you_state">
+        <img
+          src="./images/illustration-thank-you.svg"
+          alt="illustration-thank-you image"
+        />
+
+        <p class="selection">
+          You selected
+          <span class="selected">0</span>out of 5
+        </p>
+
+        <h2 class="heading">Thank you!</h2>
+        <p class="text">
+          We appreciate you taking the time to give a rating. If you ever need
+          more support, don’t hesitate to get in touch!
+        </p>
+      </section>
+      <!-- Thank you state end -->
+
+      <section class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </section>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>

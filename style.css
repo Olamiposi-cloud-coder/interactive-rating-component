@@ -1,0 +1,73 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  /* ### Primary */
+  --Orange: hsl(25, 97%, 53%);
+
+  /* ### Neutral */
+  --White: hsl(0, 0%, 100%);
+  --LightGrey: hsl(217, 12%, 63%);
+  --MediumGrey: hsl(216, 12%, 54%);
+  --DarkBlue: hsl(213, 19%, 18%);
+  --VeryDarkBlue: hsl(216, 12%, 8%);
+}
+
+body {
+  font-size: 15px;
+  font-family: "Overpass", sans-serif;
+  color: var(--White);
+}
+
+.numbers-to_select {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.numbers-to_select p {
+  padding: 1rem 1.3rem;
+  background-color: var(--DarkBlue);
+  opacity: ;
+  z-index: 2;
+  font-weight: 700;
+  color: var(--LightGrey);
+  border-radius: 49%;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-width: 400px;
+  min-height: 100vh;
+  background-color: var(--VeryDarkBlue);
+}
+
+.rating-container {
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 30%;
+  min-width: 200px;
+  background-color: var(--DarkBlue);
+}
+
+.thank-you_state {
+  display: none;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
