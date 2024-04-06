@@ -75,7 +75,7 @@ img {
 }
 
 .rating-container {
-  display: none;
+  display: flex;
   padding: 2rem;
   border-radius: 2rem;
   width: 100%;
@@ -123,6 +123,7 @@ img {
 
 .thank-you_state {
   width: 100%;
+  display: none;
   text-align: center;
   background-color: var(--DarkBlue);
   padding: 2rem;
